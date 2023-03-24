@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+
+.profil{
+    display: flex;
+    grid-row: auto;
+    grid-row: 2;
+    width: 80%;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 300px;
+    margin-bottom: 150px;
+}
+
+.profiltentang_1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.profiltentang_1 img {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 300px;
+}
+
+.profiltentang_2 {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.profiltentang_11 {
+  display: flex;
+  flex-direction: row;
+}
+
+.kataa1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.kataa1 h2{
+    padding-left: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+}
+
+.kataa1 p{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 300px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.kataa2 p{
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 30px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.kataa2 h2{
+  padding-left: 15px;
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+}
+
+.judultim h1{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .maincard{
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+    gap: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-card{
+    position: relative;
+    font-family: sans-serif;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5%;
+    transition: .6s;
+    margin: 0 25px;
+  }
+
+
+
+  .profile-card .imgtim{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+    z-index: 40;
+  }
+
+  .imgtim img{
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 0 0 22px #3336;
+    transition: .6s;
+  }
+
+  .profile-card .imgtim{
+    transform: translateY(-60px);
+  }
+
+  .profile-card:hover img{
+    border-radius: 10px;
+  }
+
+  .caption{
+     text-align: center;
+     opacity: 1;
+     transition: .6s;
+   }
+   .caption h3{
+     font-size: 21px;
+     font-family: sans-serif;
+   }
+   .caption p{
+     font-size: 15px;
+     color: #000000;
+     font-family: sans-serif;
+     margin: 2px 0 9px 0;
+   }
+
+   .judultim h1{
+    font-size: 32px;
+    margin-right: 100vh;
+    margin-bottom: 15px;
+   }
